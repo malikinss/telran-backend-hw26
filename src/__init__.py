@@ -1,3 +1,5 @@
 # ./src/__init__.py
 
-__all__ = []
+from .my_array import MyArray
+
+__all__ = ['MyArray']
